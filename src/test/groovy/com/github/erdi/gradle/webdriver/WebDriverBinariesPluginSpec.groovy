@@ -77,6 +77,7 @@ class WebDriverBinariesPluginSpec extends PluginSpec {
                     version = '$binaryVersion'
                     ${architectureCode(binaryName)}
                 }
+                driverUrlsConfiguration = resources.text.fromString('${'{"drivers": [{"name" : "chromedriver", "platform" : "mac", "bit" : "64", "arch" : "aarch64", "version" : "121.0.6167.85", "url" : "https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/122.0.6261.39/mac-arm64/chrome-mac-arm64.zip"}, {"name": "geckodriver", "platform": "mac", "bit": "64", "arch": "aarch64", "version": "0.34.0", "url": "https://github.com/mozilla/geckodriver/releases/download/v0.34.0/geckodriver-v0.34.0-macos-aarch64.tar.gz"}]}'}') 
             }
 
             test {
