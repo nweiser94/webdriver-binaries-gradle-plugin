@@ -17,7 +17,7 @@ package com.github.erdi.gradle.webdriver
 
 class BinariesVersions {
 
-    public static final String TESTED_CHROMEDRIVER_VERSION = '121.0.6167.85'
+    public static final String TESTED_CHROMEDRIVER_VERSION = '122.0.6261.69'
     public static final String TESTED_GECKODRVIER_VERSION = '0.34.0'
     public static final String TESTED_EDGEDRIVER_VERSION = '108.0.1462.38'
 

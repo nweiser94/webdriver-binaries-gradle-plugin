@@ -85,6 +85,7 @@ class WebDriverBinariesPluginSpec extends PluginSpec {
                 testLogging {
                     exceptionFormat 'full'
                 }
+                driverUrlsConfiguration = resources.text.fromString('${'{"drivers": [{"name" : "chromedriver", "platform" : "mac", "bit" : "64", "arch" : "aarch64", "version" : "122.0.6261.69", "url" : "https://storage.googleapis.com/chrome-for-testing-public/122.0.6261.69/mac-arm64/chromedriver-mac-arm64.zip"}, {"name": "geckodriver", "platform": "mac", "bit": "64", "arch": "aarch64", "version": "0.34.0", "url": "https://github.com/mozilla/geckodriver/releases/download/v0.34.0/geckodriver-v0.34.0-macos-aarch64.tar.gz"}]}'}') 
             }
         """
     }
